@@ -1,0 +1,454 @@
+/*
+    B-Accessories v1.0.0 (https://github.com/1nonlyxtian/b-utilities)
+	Copyright 2016 Christian Dasalla
+	
+	This project is licensed under the 
+	MIT License (https://github.com/1nonlyxtian/b-accessories/blob/master/LICENSE).
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300|Montserrat);
+
+/* B-Containers */
+.b-container {
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	font-family: 'Roboto' !important;
+	font-size: 14px !important;
+}
+@media (min-width: 768px) {
+  .b-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .b-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .b-container {
+    width: 1170px;
+  }
+}
+.b-container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.b-big-em {
+	font-family: 'Montserrat' !important;
+	text-align: center !important;
+	margin: -8px -8px 30px -8px !important;
+	padding: 30px !important;
+}
+.b-big-em p {
+    margin-top: -12px !important;
+	margin-bottom: 12px !important;
+	font-size: 13px !important;
+}
+.b-big-em + .b-big-em {
+    margin-top: -33.5px !important;
+}
+.b-big-em h1 {
+	font-size: 30px !important;
+}
+.b-big-em > .heading {
+	text-transform: uppercase !important;
+}
+.b-big-em.black {
+	color: #fff;
+	background-color: #000 !important;
+}
+.b-big-em.white {
+	color: #000;
+	background-color: #fff !important;
+}
+.b-big-em.blue {
+	color: #fff;
+	background-color: #2196F3 !important;
+}
+.b-big-em.dark-purple {
+	color: #fff;
+	background-color: #673ab7 !important;
+}
+.b-big-em.grey {
+	color: #fff;
+	background-color: #616161 !important;
+}
+.b-big-em.indigo {
+	color: #fff;
+	background-color: #1a237e !important;
+}
+.b-big-em.orange {
+	color: #fff;
+	background-color: #ff9800 !important;
+}
+.b-big-em.purple {
+	color: #fff;
+	background-color: #9c27b0 !important;
+}
+.b-big-em.red {
+	color: #fff;
+	background-color: #F44336 !important;
+}
+.b-big-em.teal {
+	color: #fff;
+	background-color: #009688 !important;
+}
+.b-big-em.yellow {
+	color: #fff;
+	background-color: #ffeb3b !important;
+}
+.b-big-em.light-blue {
+	color: #fff;
+	background-color: #03a9f4 !important;
+}
+.b-big-em.green {
+	color: #fff;
+	background-color: #4CAF50 !important;
+}
+.b-big-em.light-green {
+	color: #fff;
+	background-color: #8bc34a !important;
+}
+.b-big-em.brown {
+	color: #fff;
+	background-color: #795548 !important;
+}
+@media only screen and (min-width: 320px) {
+	.b-big-em h1 {
+		font-size: 50px !important;
+	}
+	.b-big-em p {
+		margin-top: -15px !important;
+		margin-bottom: 15px !important;
+		font-size: 16px !important;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.b-big-em h1 {
+		font-size: 70px !important;
+	}
+	.b-big-em p {
+		margin-top: 15px !important;
+		margin-bottom: 35px !important;
+		font-size: 18px !important;
+	}
+}
+
+/* B-Grid */
+.row {
+	padding: 1px 5px !important;
+}
+.column {
+	padding: 1px 3px !important;
+}
+.sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12 {
+	float: left;
+}
+.sm-1 {
+	width: 8.33%;
+}
+.sm-2 {
+	width: 16.66%;
+}
+.sm-3 {
+	width: 25%;
+}
+.sm-4 {
+	width: 33.33%;
+}
+.sm-5 {
+	width: 41.66%;	
+}
+.sm-6 {
+	width: 50%;
+}
+.sm-7 {
+	width: 58.33%;
+}
+.sm-8 {
+	width: 66.66%;
+}
+.sm-9 {
+	width: 75%;
+}	
+.sm-10 {
+	width: 83.33%;
+}
+.sm-11 {
+	width: 91.66%;
+}
+.sm-12 {
+	width: 100%;
+}
+.sm-offset-0 {
+	margin-left: 0;
+}
+.sm-offset-1 {
+	margin-left: 8.33%;
+}
+.sm-offset-2 {
+	margin-left: 16.66%;
+}
+.sm-offset-3 {
+	margin-left: 25%;
+}
+.sm-offset-4 {
+	margin-left: 33.33%;
+}
+.sm-offset-5 {
+	margin-left: 41.66%;
+}
+.sm-offset-6 {
+	margin-left: 50%;
+}
+.sm-offset-7 {
+	margin-left: 58.33%;
+}
+.sm-offset-8 {
+	margin-left: 66.66%;
+}
+.sm-offset-9 {
+	margin-left: 75%;
+}
+.sm-offset-10 {
+	margin-left: 83.33%;
+}
+.sm-offset-11 {
+	margin-left: 91.66%;
+}
+.sm-offset-12 {	
+	margin-left: 100%;
+}
+@media only screen and (min-width: 600px) {
+	.md-1, .md-2, .md-3, .md-4, .md-5, .md-6, .md-7, .md-8, .md-9, .md-10, .md-11, .md-12 {
+		float: left;
+	}
+	.md-1 {
+		width: 8.33%;
+	}
+	.md-2 {
+		width: 16.66%;
+	}
+	.md-3 {
+		width: 25%;
+	}
+	.md-4 {
+		width: 33.33%;
+	}
+	.md-5 {
+		width: 41.66%;
+	}
+	.md-6 {
+		width: 50%;
+	}
+	.md-7 {
+		width: 58.33%;
+	}
+	.md-8 {
+		width: 66.66%;
+	}
+	.md-9 {
+		width: 75%;
+	}
+	.md-10 {
+		width: 83.33%;
+	}
+	.md-11 {
+		width: 91.66%;
+	}
+	.md-12 {
+		width: 100%;
+	}
+	.md-offset-0 {
+		margin-left: 0;
+	}
+	.md-offset-1 {
+		margin-left: 8.33%;
+	}
+	.md-offset-2 {
+		margin-left: 16.66%;
+	}
+	.md-offset-3 {
+		margin-left: 25%;
+	}
+	.md-offset-4 {
+		margin-left: 33.33%;
+	}
+	.md-offset-5 {
+		margin-left: 41.66%;
+	}
+	.md-offset-6 {
+		margin-left: 50%;
+	}
+	.md-offset-7 {
+		margin-left: 58.33%;
+	}
+	.md-offset-8 {
+		margin-left: 66.66%;
+	}
+	.md-offset-9 {
+		margin-left: 75%;
+	}
+	.md-offset-10 {
+		margin-left: 83.33%;
+	}
+	.md-offset-11 {
+		margin-left: 91.66%;
+	}
+	.md-offset-12 {
+		margin-left: 100%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
+		float: left;
+	}
+	.lg-1 {
+		width: 8.33%;
+	}
+	.lg-2 {
+		width: 16.66%;
+	}
+	.lg-3 {
+		width: 25%;
+	}
+	.lg-4 {
+		width: 33.33%;
+	}
+	.lg-5 {
+		width: 41.66%;
+	}
+	.lg-6 {
+		width: 50%;
+	}
+	.lg-7 {
+		width: 58.33%;
+	}
+	.lg-8 {
+		width: 66.66%;
+	}
+	.lg-9 {
+		width: 75%;
+	}
+	.lg-10 {
+		width: 83.33%;
+	}
+	.lg-11 {
+		width: 91.66%;
+	}
+	.lg-12 {
+		width: 100%;
+	}
+	.lg-offset-0 {
+		margin-left: 0;
+	}
+	.lg-offset-1 {
+		margin-left: 8.33%;
+	}
+	.lg-offset-2 {
+		margin-left: 16.66%;
+	}
+	.lg-offset-3 {
+		margin-left: 25%;
+	}
+	.lg-offset-4 {
+		margin-left: 33.33%;
+	}
+	.lg-offset-5 {
+		margin-left: 41.66%;
+	}
+	.lg-offset-6 {
+		margin-left: 50%;
+	}
+	.lg-offset-7 {
+		margin-left: 58.33%;
+	}
+	.lg-offset-8 {
+		margin-left: 66.66%;
+	}
+	.lg-offset-9 {
+		margin-left: 75%;
+	}
+	.lg-offset-10 {
+		margin-left: 83.33%;
+	}
+	.lg-offset-11 {
+		margin-left: 91.66%;
+	}
+	.lg-offset-12 {
+		margin-left: 100%;
+	}
+}
+
+/* B-Text */
+.text-black {
+	color: #000 !important;
+}
+.text-white {
+	color: #fff !important;
+}
+.text-blue {
+	color: #2196F3 !important;
+}
+.text-dark-purple {
+	color: #673ab7 !important;
+}
+.text-grey {
+	color: #616161 !important;
+}
+.text-indigo {
+	color: #1a237e !important;
+}
+.text-orange {
+	color: #ff9800 !important;
+}
+.text-purple {
+	color: #9c27b0 !important;
+}
+.text-red {
+	color: #F44336 !important;
+}
+.text-teal {
+	color: #009688 !important;
+}
+.text-yellow {
+	color: #ffeb3b !important;
+}
+.text-light-blue {
+	color: #03a9f4 !important;
+}
+.text-green {
+	color: #4CAF50 !important;
+}
+.text-light-green {
+	color: #8bc34a !important;
+}
+.text-brown {
+	color: #795548 !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-justify {
+	text-align: justify !important;
+}
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
